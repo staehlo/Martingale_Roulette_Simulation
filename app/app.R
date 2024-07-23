@@ -12,7 +12,7 @@ ui <- fluidPage(
                                   '#submit:hover{background-color:#2B3E50}')))),
   
   # App title
-  titlePanel("Simulating the Martingale Roulette strategy"),
+  titlePanel("Simulating the Martingale Roulette Strategy"),
   
   # Sidebar layout
   sidebarLayout(
