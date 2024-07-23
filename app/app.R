@@ -94,8 +94,8 @@ ui <- fluidPage(
                      "seconds as it will compute the average win ratio based",
                      "on 1000 games with your input settings.</p>")),
           HTML(paste("The code can be found on GitHub:", br(),
-                     tags$a(href = paste0("https:/github.com/staehlo/",
-                                          ""),
+                     tags$a(href = paste0("https://github.com/staehlo/",
+                                          "Martingale_Roulette_Simulation"),
                             paste0("GitHub.com/staehlo/",
                                    "Martingale_Roulette_Simulation"))))
         ) # end tabPanel "Explanation"
