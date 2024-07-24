@@ -48,3 +48,20 @@ __Option B\. Launch from within RStudio:__
 5\. Click on the 'Run App' button in the top right corner above the script.
 
 6\. The app should start in RStudio's 'Viewer' panel.
+
+## The Martingale strategy at the Roulette table
+The *Martingale* is a betting strategy that can be applied to various games of luck.
+
+Its basic idea is to start with a minimum investment and to double the input everytime you lost the last round so that you will hopefully recover your losses at the end. Whenever you win, you will add the money to your budget and start again with the minimum investment.
+
+The game is over if you have won more than a predefined amount of money or if you cannot make the next investment required according to the strategy.
+
+At the roulette table, you will choose a color and stick to it for the entire evening.
+
+Beware that this simulation defines "lost" and "won" only on the basis whether you reached your set win target before you can no longer make the next placement. This does not take into account that losing might mean that you lost your entire budget while winning only means that you have 1 more than the predefined target value.
+
+Wikipedia has a number of related articles with further information on why you shouldn't apply this strategy in real life:
+
+* [en.wikipedia.org/wiki/Martingale_(betting_system)](https://en.wikipedia.org/wiki/Martingale_(betting_system))
+* [en.wikipedia.org/wiki/Roulette#Betting_strategies_and_tactics](https://en.wikipedia.org/wiki/Roulette#Betting_strategies_and_tactics)
+* [en.wikipedia.org/wiki/Escalation_of_commitment](https://en.wikipedia.org/wiki/Escalation_of_commitment)
